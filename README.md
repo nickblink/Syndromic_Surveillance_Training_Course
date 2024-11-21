@@ -15,39 +15,39 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
 - [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
 
-### Session 1 (March 2): Indicator choices and data visualization 
+### Session 1: Indicator choices and data visualization 
 - [Slides](slides/CIHR_SyndromicSurveillanceCourse_lecture1_v02.pdf)
 - [Lab materials](materials/session1_03-02.zip)
 - [Lab solutions](solutions/session1_handout_solutions.pdf)
-- [Video - Lecture](https://www.youtube.com/watch?v=vo_MFsIRBe4)
-- [Video - R Tutorial](https://www.youtube.com/watch?v=AeWJ2T2Zuiw)
+- [(Old) Video - Lecture](https://www.youtube.com/watch?v=vo_MFsIRBe4)
+- [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=AeWJ2T2Zuiw)
 
-### Session 2 (March 9): Fitting time series models, Part 1 
+### Session 2: Fitting time series models, Part 1 
 - [Slides](slides/CIHR_Course_Week2_Time_Series_no_code.pdf)
 - [Lab materials](materials/session2_03-09.zip)
 - [Lab solutions](solutions/session2_handout_solutions.pdf)
 - [Handout](https://docs.google.com/presentation/d/1xSLggegZW1SDZBWTop-swGuqrGFYlOByrD7X2lNdWRs/edit#slide=id.p)
-- [Video - Lecture](https://www.youtube.com/watch?v=JWJhww1mOOE)
-- [Video - R Tutorial](https://www.youtube.com/watch?v=CRAE1zARHpY)
+- [(Old) Video - Lecture](https://www.youtube.com/watch?v=JWJhww1mOOE)
+- [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=CRAE1zARHpY)
 
-### Session 3 (March 16): Fitting time series models, Part 2 
+### Session 3: Fitting time series models, Part 2 
 - [Slides](slides/CIHR_Course_Week3_Time_Series.pdf)
 - [Lab materials](materials/session3_03-16.zip)
 - [Lab solutions](solutions/session3_handout_solutions.pdf) *Note: mistakes in handout were corrected in solutions*
-- [Video - Lecture](https://www.youtube.com/watch?v=cSYPmixjLYo)
-- [Video - R Tutorial](https://www.youtube.com/watch?v=mThIcj_tFDE)
+- [(Old) Video - Lecture](https://www.youtube.com/watch?v=cSYPmixjLYo)
+- [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=mThIcj_tFDE)
 
-### Session 4 (March 23): Getting and cleaning the data
+### Session 4: Getting and cleaning the data
 - [Slides](slides/CIHR_Course_Week4_Data_Cleaning.pdf)
 - [Lab materials](materials/session4_03-23.zip)
-- [Video - Lecture](https://www.youtube.com/watch?v=3U-4bkyNGMI)
-- [Video - R Tutorial]( https://youtu.be/NnQUPzFMwvU )
+- [(Old) Video - Lecture](https://www.youtube.com/watch?v=3U-4bkyNGMI)
+- [(Old) Video - R Tutorial]( https://youtu.be/NnQUPzFMwvU )
 
-### Session 5 (March 30): Data visualization, Part 2
+### Session 5: Data visualization, Part 2
 - [Slides](slides/CIHR_Course_Week5_Data_Viz.pdf)
 - [Lab materials](materials/session5_03-30.zip)
-- [Video - Lecture](https://youtu.be/ZMR1iHMk8EQ)
-- [Video - R Tutorial](https://youtu.be/Cwq63nQ26sw)
+- [(Old) Video - Lecture](https://youtu.be/ZMR1iHMk8EQ)
+- [(Old) Video - R Tutorial](https://youtu.be/Cwq63nQ26sw)
 
 
 
