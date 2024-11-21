@@ -12,10 +12,8 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [Interrupted Time Series EdX Course](https://www.edx.org/course/policy-analysis-using-interrupted-time-series)
 - [Cheatsheet: ggplot2](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 - [Cheatsheet: Data manipulation in R](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf)
-- [R Tidyverse practice course]
-(https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
-- [R Tidyverse textbook]
-(https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
+- [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
+- [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
 
 ### Session 1 (March 2): Indicator choices and data visualization 
 - [Slides](slides/CIHR_SyndromicSurveillanceCourse_lecture1_v02.pdf)
