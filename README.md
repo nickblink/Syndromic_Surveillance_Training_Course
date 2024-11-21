@@ -1,22 +1,21 @@
-# Time series modeling methods for syndromic surveillance
+# Syndromic Surveillance in R
 
-This course consisted of five 90-minute lecutres followed by 90-minute lab sessions. The goal is to introduce attendees to concepts in time series modeling, with a particular focus on syndromic surveillance using routine health systems data. The contents available here include lecture slides and materials for the lab sessions.
+This is a week-long course that consists of lectures and labs. The goal is to introduce attendees to concepts in syndromic surveillance time series modeling, with a particular focus on using R. The contents available here include lecture slides and materials for the lab sessions.
 
 ### Course instructors
-This course is co-taught by Bethany Hedt-Gauthier (Harvard Medical School), Michael Law (University of British Columbia), and Isabel Fulcher (Harvard Medical School). Donald Fejfar and Nichole Kulikowski are the teaching assistants.
+This course is taught by Nicholas Link (Harvard School of Public Health). Materials were originally created by Isabel Fulcher (Harvard Medical School),  Bethany Hedt-Gauthier (Harvard Medical School) and Michael Law (University of British Columbia).
 
 ### Course preparation
-**Download R and RStudio**: If you plan to participate in the lab sessions, please download both R and RStudio (free statistical software) prior to the first session on March 2. Instructions for both Windows and Mac users are available [online here](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) (please ignore the third step about SDSFoundations Package). You can also watch [this video](https://www.youtube.com/watch?v=cX532N_XLIs&ab_channel=MarinStatsLectures-RProgramming%26Statistics) for step by step download instructions.
+**Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) (please ignore the third step about SDSFoundations Package). You can also watch [this video](https://www.youtube.com/watch?v=cX532N_XLIs&ab_channel=MarinStatsLectures-RProgramming%26Statistics) for step by step download instructions.
 
 ### Additional resources
 - [Interrupted Time Series EdX Course](https://www.edx.org/course/policy-analysis-using-interrupted-time-series)
 - [Cheatsheet: ggplot2](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 - [Cheatsheet: Data manipulation in R](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf)
-
-### Supplemental course materials for "Building capacity for COVID-19 Surveillance: A Statistics Course for Health Officials in Seven Low- and Middle-Income Countries"
-- [Deidentified data and preliminary results](paper_supplement/Survey_Responses.xlsx)
-- [Example code for results and figures](paper_supplement/CIHR_Training_Course_Survey_Responses_Summary_v4.R)
-- [Supplemental figures](paper_supplement/cihr_course_tables_figures_v07.docx)
+- [R Tidyverse practice course]
+(https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
+- [R Tidyverse textbook]
+(https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
 
 ### Session 1 (March 2): Indicator choices and data visualization 
 - [Slides](slides/CIHR_SyndromicSurveillanceCourse_lecture1_v02.pdf)
