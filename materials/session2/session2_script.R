@@ -7,6 +7,8 @@
 library(tidyverse)
 library(lubridate)
 
+# SET THE DIRECTORY
+
 # LOAD AND VIEW DATA
 
 ## Load the Facility B visits ".rds" file and save as "facility"
@@ -58,8 +60,8 @@ ggplot(facility,aes(x=date,y=count)) +
 
 ## 2. Plot the points with the fitted quadratic model. 
 
-## 3. Plot the residuals with a horizontal line at zero. Is there evidence of residual correlation?
+## 3. Plot the residuals with the fitted model.
 
-
+## 4. Repeat steps 1-3 for a linear regression using a sin and cosine term. Hint: You will need to create new variables in the data using. Which model looks like it performs best? How could we measure the performance of the models?
   
   
