@@ -5,6 +5,7 @@
 
 # INSTALL AND LOAD PACKAGES
 library(tidyverse)
+library(lubridate)
 
 # Find the current directory
 getwd()
@@ -22,6 +23,7 @@ str(outpatient)
 ## Load a .csv file in R and view the first six observations.
 data_csv <- read_csv('materials/session1/session1_data/example_outpatient.csv')
 head(data_csv)
+str(data_csv)
 
 # WORKING WITH DATA 
 # FILTERING DATA 
@@ -37,14 +39,16 @@ outpatient %>%
 ## What is the total number of outpatient visits in the dataset?
 outpatient %>% 
   summarize(sum(outpatient_visits))
+sum(outpatient$outpatient_visits)
 
 ## What is the mean (average) number of monthly outpatient visits?
 outpatient %>%
   summarize(mean(outpatient_visits))
+mean(outpatient$outpatient_visits)
 
 ## What is the minimum and maximum number of monthly outpatient visits?
 outpatient %>% 
-  summarize(min(outpatient_visits), 
+  summarize(min(outpatient_visits),
             max(outpatient_visits))
 
 ## How many missing months are there?
@@ -60,9 +64,12 @@ outpatient %>%
 outpatient %>%
   mutate(month = month(date)) -> outpatient2
 # (or)
-outpatient2 <- outpatient %>%
+outpatient3 <- outpatient %>%
   mutate(month = month(date))
 head(outpatient2)
+# (or - not recommended)
+outpatient4 = outpatient %>%
+  mutate(month = month(date))
 
 # SUMMARIZE DATA WITHIN GROUPINGS
 ## Over the time period, what is the average number of visits by month?
@@ -72,15 +79,28 @@ outpatient2 %>%
 
 # LAB ACITVITY
 ## How many months have less than 3000 visits?
+outpatient %>%
+  filter(outpatient_visits > 3000)
   
 ## How many outpatient visits occurred in March 2019?
-  
+outpatient %>%
+  filter(date == "2019-03-01")
+
 ## How many total outpatient visits occurred in 2016?
+outpatient %>%
+  filter(date >= "2016-01-01" & date <= "2016-12-01") %>%
+  summarize(sum(outpatient_visits))
   
 ## Load in the example_kmc.rds dataset
+kmc <- readRDS("materials/session1/session1_data/example_kmc.rds")
 
 ## View the KMC dataset.
+head(kmc)
 
 ## How many missing months are in this dataset?
-  
+kmc %>%
+  summarize(sum(is.na(indicator_count_kangaroo)))
+
 ## What is the mean (average) number of monthly Kangaroo Mother Care?
+kmc %>%
+  summarize(mean(indicator_count_kangaroo,na.rm=TRUE))

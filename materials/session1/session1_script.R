@@ -1,19 +1,23 @@
 ###################################
 ######### LAB SESSION 1 ###########
-#########    3/2/2021   ###########
 ###################################
 
 # INSTALL AND LOAD PACKAGES
 library(tidyverse)
+library(lubridate)
+
+# set the working directory
+
+# navigate to the set working directory option in "files".
 
 # LOAD AND VIEW DATA
 ## Load the outpatient visits ".rds" file
 
-## View the first six observations in the outaptient datasets
+## View the first six observations in the outpatient datasets
 
 ## View the variable types in the dataset.
 
-## Load a .csv file in R and view the first six observations.
+## Load a .csv file in R and view the first six observations. Does anything look different about this data frame?
 
 # WORKING WITH DATA 
 # FILTERING DATA 

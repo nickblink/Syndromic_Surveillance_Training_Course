@@ -6,7 +6,7 @@ This is a week-long course that consists of lectures and labs. The goal is to in
 This course is taught by Nicholas Link (Harvard School of Public Health). Materials were originally created by Isabel Fulcher (Harvard Medical School),  Bethany Hedt-Gauthier (Harvard Medical School) and Michael Law (University of British Columbia).
 
 ### Course preparation
-**Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) (please ignore the third step about SDSFoundations Package). You can also watch [this video](https://www.youtube.com/watch?v=cX532N_XLIs&ab_channel=MarinStatsLectures-RProgramming%26Statistics) for step by step download instructions.
+**Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) (DOESNT WORK). You can also watch [this video](https://www.youtube.com/watch?v=cX532N_XLIs&ab_channel=MarinStatsLectures-RProgramming%26Statistics) for step by step download instructions. (DOESNT WORK)
 
 ### Additional resources
 - [Interrupted Time Series EdX Course](https://www.edx.org/course/policy-analysis-using-interrupted-time-series)
@@ -15,6 +15,7 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [Cheatsheet: Data manipulation in R](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf)
 - [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
 - [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
+IZZIES GITHUB!
 
 ### Session 1: Indicator choices and data visualization 
 - [Slides](slides/CIHR_SyndromicSurveillanceCourse_lecture1_v02.pdf)
