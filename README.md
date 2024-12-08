@@ -6,7 +6,7 @@ This is a week-long course that consists of lectures and labs. The goal is to in
 This course is taught by Nicholas Link (Harvard School of Public Health). Materials were originally created by Isabel Fulcher (Harvard Medical School),  Bethany Hedt-Gauthier (Harvard Medical School) and Michael Law (University of British Columbia). Planning and administrative support was provided by Emma Boley, Luke Krangar, Patrick Konwloh (Health Information Systems - Liberian Ministry of Health).
 
 ### Course preparation
-**Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/) (DOESNT WORK). You can also watch [this video](https://www.youtube.com/watch?v=cX532N_XLIs&ab_channel=MarinStatsLectures-RProgramming%26Statistics) for step by step download instructions. (DOESNT WORK)
+**Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://rstudio-education.github.io/hopr/starting.html).
 
 ### Additional resources
 - [Interrupted Time Series EdX Course](https://www.edx.org/course/policy-analysis-using-interrupted-time-series)
