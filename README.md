@@ -37,7 +37,7 @@ IZZIES GITHUB!
 
 ### Session 4: Getting and cleaning the data
 - [Slides](slides/4_DataClean_SyndromicSurveillance_LiberiaMOH.pdf)
-- [Lab materials](materials/session4_03-23.zip)
+- [Lab materials](materials/session4_materials.zip)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=3U-4bkyNGMI)
 - [(Old) Video - R Tutorial]( https://youtu.be/NnQUPzFMwvU )
 

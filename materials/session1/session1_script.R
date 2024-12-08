@@ -3,6 +3,7 @@
 ###################################
 
 # INSTALL AND LOAD PACKAGES
+install.packages(c('tidyverse','lubridate'))
 library(tidyverse)
 library(lubridate)
 
