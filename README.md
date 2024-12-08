@@ -45,7 +45,7 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [Cheatsheet: Data manipulation in R](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.ppt)
 - [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
 - [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
-- [Isabel Fulcher's github on Syndromic Surveillance] https://github.com/isabelfulcher/global_covid19_response
-- [Chatgpt!] https://chatgpt.com/
+- [Isabel Fulcher's github on Syndromic Surveillance] (https://github.com/isabelfulcher/global_covid19_response)
+- [Chatgpt!] (https://chatgpt.com/)
 
 
