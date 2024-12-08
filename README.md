@@ -1,4 +1,4 @@
-# Syndromic Surveillance in R
+# Syndromic Surveillance and Data Analysis in R
 
 This is a week-long course that consists of lectures and labs. The goal is to introduce attendees to concepts in syndromic surveillance time series modeling, with a particular focus on using R. The contents available here include lecture slides and materials for the lab sessions.
 
@@ -14,7 +14,7 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=vo_MFsIRBe4)
 - [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=AeWJ2T2Zuiw)
 
-### Session 2: Fitting time series models, Part 1 
+### Session 2: Linear Regression and fitting time series models, Part 1 
 - [Slides](slides/2_TimeSeries_SyndromicSurveillance_LiberiaMOH.pptx)
 - [Lab materials](materials/session2/session2_materials.zip)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=JWJhww1mOOE)
@@ -45,7 +45,7 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [Cheatsheet: Data manipulation in R](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.ppt)
 - [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
 - [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
-- [Isabel Fulcher's github on Syndromic Surveillance] (https://github.com/isabelfulcher/global_covid19_response)
-- [Chatgpt!] (https://chatgpt.com/)
+- [Isabel Fulcher's github on Syndromic Surveillance](https://github.com/isabelfulcher/global_covid19_response)
+- [Chatgpt!](https://chatgpt.com/)
 
 
