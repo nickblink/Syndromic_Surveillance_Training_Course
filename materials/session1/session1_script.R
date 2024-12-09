@@ -2,8 +2,9 @@
 ######### LAB SESSION 1 ###########
 ###################################
 
+# write anything I want.
+
 # INSTALL AND LOAD PACKAGES
-install.packages(c('tidyverse','lubridate'))
 library(tidyverse)
 library(lubridate)
 
@@ -13,18 +14,29 @@ library(lubridate)
 
 # LOAD AND VIEW DATA
 ## Load the outpatient visits ".rds" file
+outpatient <- readRDS('session1_data/example_outpatient.rds')
 
 ## View the first six observations in the outpatient datasets
+head(outpatient)
+view(outpatient)
 
 ## View the variable types in the dataset.
+str(outpatient)
 
 ## Load a .csv file in R and view the first six observations. Does anything look different about this data frame?
+outpatient_csv <- read_csv('session1_data/example_outpatient.csv')
+
+str(outpatient_csv)
 
 # WORKING WITH DATA 
 # FILTERING DATA 
 ## Filter the data to months that had greater than or equal to 8000 outpatient visits.
+outpatient %>%
+  filter(outpatient_visits >= 8000)
 
 ## Filter the data to view outpatient visits in 2020.
+outpatient %>%
+  filter(date >= '2020-01-01' & date <= '2020-12-31')
 
 # DATA SUMMARIES
 ## What is the total number of outpatient visits in the dataset?

@@ -1,0 +1,127 @@
+---
+title: "Linear Regression Visualization"
+author: "Your Name"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+set.seed(123)  # For reproducibility
+```
+
+
+# Perfect linear trend
+```{r, echo = F}
+months <- 1:60
+outpatients_perfect <- 1000 + 10 * months
+df_perfect <- data.frame(months = months, outpatients = outpatients_perfect)
+
+# Plot
+ggplot(df_perfect, aes(x = months, y = outpatients)) +
+  geom_line(color = "blue", size = 1) +
+  labs(title = "Perfect Linear Trend",
+       x = "Months",
+       y = "Outpatients")
+```
+
+
+# Observed data
+```{r, echo = F}
+# Generate noisy linear trend data
+outpatients_noisy <- 1000 + 10 * months + rnorm(60, 0, 300)
+df_noisy <- data.frame(months = months, outpatients = outpatients_noisy)
+
+# True line data
+true_line <- data.frame(months = months, outpatients = 1000 + 10 * months)
+
+ggplot() +
+  geom_point(data = df_noisy, aes(x = months, y = outpatients), color = "black") +
+  geom_line(data = true_line, aes(x = months, y = outpatients), color = "blue", size = 1) +
+  labs(title = "Noisy Points with the True Line",
+       x = "Months",
+       y = "Outpatients")
+
+# Plot noisy trend
+ggplot(df_noisy, aes(x = months, y = outpatients)) +
+  geom_point(color = "black") +
+  labs(title = "Linear Trend with Noise",
+       x = "Months",
+       y = "Outpatients")
+```
+
+# which line best fits?
+```{r, echo = F}
+outpatient_visits <- 2000 + 15 * months + rnorm(60, 0, 300)
+df <- data.frame(months = months, outpatient_visits = outpatient_visits)
+
+# Define three guess fits with different slopes
+fit_A <- data.frame(months = months, outpatient_visits = 2000 + 14 * months)
+fit_B <- data.frame(months = months, outpatient_visits = 1900 + 18 * months)
+fit_C <- data.frame(months = months, outpatient_visits = 1800 + 16 * months)
+df <- data.frame(months = months, outpatient_visits = outpatient_visits)
+
+# True best fit line
+best_fit <- lm(outpatient_visits ~ months, data = df)
+df_best_fit <- data.frame(months = months, 
+                          outpatient_visits = predict(best_fit, newdata = data.frame(months = months)))
+
+# Plot with three guesses and the best fit
+ggplot(df, aes(x = months, y = outpatient_visits)) +
+  geom_point(color = "black") +
+  geom_line(data = fit_A, aes(x = months, y = outpatient_visits, color = "A"), size = 1) +
+  geom_line(data = fit_B, aes(x = months, y = outpatient_visits, color = "B"), size = 1) +
+  geom_line(data = fit_C, aes(x = months, y = outpatient_visits, color = "C"), size = 1) +
+  scale_color_manual(values = c("A" = "red", "B" = "blue", "C" = "green"),
+                     name = "Model Fits",
+                     labels = c("A", "B", "C")) +
+  labs(title = "Outpatient Visits with Guess Lines",
+       x = "Months",
+       y = "Outpatient Visits") +
+  theme_minimal()
+
+```
+
+# The best fitting line
+```{r, echo = F}
+# Best fit
+best_fit <- lm(outpatient_visits ~ months, data = df)
+
+# Plot with three fits
+ggplot(df, aes(x = months, y = outpatient_visits)) +
+  geom_point(color = "black") +
+  geom_line(data = fit_A, aes(x = months, y = outpatient_visits, color = "A"), size = 1) +
+  geom_line(data = fit_B, aes(x = months, y = outpatient_visits, color = "B"), size = 1) +
+  geom_line(data = fit_C, aes(x = months, y = outpatient_visits, color = "C"), size = 1) +
+  scale_color_manual(values = c("A" = "red", "B" = "blue", "C" = "green"),
+                     name = "Model Fits",
+                     labels = c("A", "B", "C")) +
+   geom_smooth(method = "lm", color = "black", se = FALSE) +
+  labs(title = "Outpatient Visits with Three Model Fits",
+       x = "Months",
+       y = "Outpatient Visits") +
+  theme_minimal()
+
+# # Plot
+# 
+# ggplot(df, aes(x = months, y = outpatient_visits)) +
+#   geom_point(color = "green") +
+#   geom_smooth(method = "lm", color = "blue", se = FALSE) +
+#   labs(title = "Outpatient Visits with Best Fit",
+#        x = "Months",
+#        y = "Outpatient Visits")
+```
+
+# Residuals
+```{r, echo = F}
+df$residuals <- resid(best_fit)
+
+# Plot residuals
+ggplot(df, aes(x = months, y = outpatient_visits)) +
+  geom_point(color = "black") +
+  geom_smooth(method = "lm", color = "blue", se = FALSE) +
+  geom_segment(aes(xend = months, yend = outpatient_visits - residuals), color = "red") +
+  labs(title = "Outpatient Visits with Best Fit and Residuals",
+       x = "Months",
+       y = "Outpatient Visits")
+```
