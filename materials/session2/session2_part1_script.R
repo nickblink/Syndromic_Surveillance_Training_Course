@@ -3,11 +3,15 @@
 ###################################
 
 # INSTALL AND LOAD PACKAGES
+library(tidyverse)
 
 # Find the current directory
+setwd("~/github_projects/Syndromic_Surveillance_Training_Course/materials")
 
 # LOAD AND VIEW DATA
 ## Load the outpatient visits ".rds" file from lab 1.
+outpatient <- readRDS('session1/session1_data/example_outpatient.rds')
+
 
 ## View the first six observations in the outaptient datasets.
 
@@ -24,10 +28,18 @@
 # VISUALIZING THE DATA
 
 # Create a histogram of the monthly outpatient visits outpatient_visits
+ggplot(outpatient, aes(outpatient_visits)) + 
+  geom_histogram(color = 'black', fill = 'blue', bins = 10) + 
+  theme_bw()
 
-# Create a scatter plot of the outpatient_visitss over time.
+# Create a scatter plot of the outpatient_visits over time.
+ggplot(outpatient, aes(x = date, y = outpatient_visits)) + 
+  geom_point()
 
-# In the above plot, connect the outpatient_visitss with a line. 
+# In the above plot, connect the outpatient_visits with a line. 
+ggplot(outpatient, aes(x = date, y = outpatient_visits)) + 
+  geom_point() +
+  geom_line()
 
 # ACTIVITY: Add aesthetics to the above plot by changing the various inputs 
 ggplot(outpatient,aes(x=date,y=outpatient_visits)) + 

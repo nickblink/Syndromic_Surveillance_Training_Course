@@ -8,6 +8,9 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 ### Course preparation
 **Download R and RStudio**: Please download both R and RStudio (free statistical software). Instructions for both Windows and Mac users are available [online here](https://rstudio-education.github.io/hopr/starting.html).
 
+### Project Materials
+- [Materials](materials/project/project_materials.zip)
+
 ### Session 1: Indicator choices and data visualization 
 - [Slides](slides/1_Introduction_SyndromicSurveillance_LiberiaMOH.pptx)
 - [Lab materials](materials/session1/session1_materials.zip)
