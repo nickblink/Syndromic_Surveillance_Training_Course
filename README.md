@@ -13,31 +13,32 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 
 ### Session 1: Indicator choices and data visualization 
 - [Slides](slides/1_Introduction_SyndromicSurveillance_LiberiaMOH.pptx)
-- [Lab materials](materials/session1/session1_materials.zip)
+- [Lab materials](materials/session1_materials/session1_materials.zip)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=vo_MFsIRBe4)
 - [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=AeWJ2T2Zuiw)
 
 ### Session 2: Linear Regression and fitting time series models, Part 1 
 - [Slides](slides/2_TimeSeries_SyndromicSurveillance_LiberiaMOH.pptx)
-- [Lab materials](materials/session2/session2_materials.zip)
+- [Lab materials](materials/session2_materials/session2_materials.zip)
+- [session2_part2 completed code (with the cos and sin seasonal terms)](materials/session2_materials/rmd_and_completed_scripts/session2_part2_script_completed.R)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=JWJhww1mOOE)
 - [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=CRAE1zARHpY)
 
 ### Session 3: Fitting time series models, Part 2 
 - [Slides](slides/3_TimeSeriesPt2_SyndromicSurveillance_LiberiaMOH.pptx)
-- [Lab materials](materials/session3/session3_materials.zip)
+- [Lab materials](materials/session3_materials/session3_materials.zip)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=cSYPmixjLYo)
 - [(Old) Video - R Tutorial](https://www.youtube.com/watch?v=mThIcj_tFDE)
 
 ### Session 4: Getting and cleaning the data
 - [Slides](slides/4_DataClean_SyndromicSurveillance_LiberiaMOH.pptx)
-- [Lab materials](materials/session4/session4_materials.zip)
+- [Lab materials](materials/session4_materials/session4_materials.zip)
 - [(Old) Video - Lecture](https://www.youtube.com/watch?v=3U-4bkyNGMI)
 - [(Old) Video - R Tutorial]( https://youtu.be/NnQUPzFMwvU )
 
 ### Session 5: Data visualization, Part 2
 - [Slides](slides/5_DataVisualization_SyndromicSurveillance_LiberiaMOH.pptx)
-- [Lab materials](materials/session5/session5_03-30.zip)
+- [Lab materials](materials/session5_materials/session5_03-30.zip)
 - [(Old) Video - Lecture](https://youtu.be/ZMR1iHMk8EQ)
 - [(Old) Video - R Tutorial](https://youtu.be/Cwq63nQ26sw)
 

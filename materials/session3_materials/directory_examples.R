@@ -6,7 +6,7 @@ if(file.exists('session1/session1_data/example_outpatient.csv') & file.exists('p
 }else{
   print('Uh-oh! Something isnt right in your directory.')
 }
-
+ 
 # Get the current directory.
 
 # Display the contents of this directory.

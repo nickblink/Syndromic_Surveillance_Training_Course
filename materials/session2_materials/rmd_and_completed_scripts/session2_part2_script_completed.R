@@ -7,11 +7,8 @@
 library(tidyverse)
 library(lubridate)
 
-# SET THE DIRECTORY
-setwd('github_projects/Syndromic_Surveillance_Training_Course/materials/session2/')
-
 # LOAD AND VIEW DATA
-facility <- readRDS("session2_data/example_facility_B.rds")
+facility <- readRDS("session2_materials/session2_data/example_facility_B.rds")
 
 ## View the first six observations in the facility dataset.
 head(facility)
@@ -72,18 +69,6 @@ facility %>%
 fit.lm <- lm(count ~ month, data=facility.new)
 summary(fit.lm)
 
-# Plot the fitted values from the above linear regression.
-ggplot(facility.new, aes(x = month, y = count)) +
-  geom_point() +
-  geom_line(aes(x = month, y = fit.lm$fitted.values)) +
-  theme_bw()
-
-# Plot the residuals from the above linear regression. 
-ggplot(facility.new, aes(x = month, y = count)) +
-  geom_point() +
-  geom_line(aes(x = month, y = fit.lm$fitted.values)) +
-  theme_bw()
-
 # option 2
 ggplot(facility.new, aes(x = month, y = count)) +
   geom_point() +
@@ -93,7 +78,7 @@ ggplot(facility.new, aes(x = month, y = count)) +
 # Plot the residuals from the above linear regression.
 ggplot(facility.new, aes(x = month, y = fit.lm$residuals)) +
   geom_point() +
-geom_line() +
+  geom_line() +
   theme_bw()
 
 # Add a horizontal line at zero

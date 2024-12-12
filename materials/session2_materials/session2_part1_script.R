@@ -15,7 +15,7 @@ outpatient <- readRDS('session1/session1_data/example_outpatient.rds')
 
 ## View the first six observations in the outaptient datasets.
 
-# SUMMARIZING THE DATA
+# SUMMARIZING THE DATA 
 
 ## How many months are in the dataset?
 
