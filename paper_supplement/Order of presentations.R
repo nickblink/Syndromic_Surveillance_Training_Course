@@ -1,4 +1,4 @@
-set.seed(1)
+set.seed(10)
 
 teams <- c('Ernest + Evelyn',
            'Caselia + Glasco',
