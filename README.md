@@ -51,9 +51,12 @@ This course is taught by Nicholas Link (Harvard School of Public Health). Materi
 - [ggplot reference site](https://r-graph-gallery.com/)
 - [R Tidyverse textbook](https://bookdown.org/yih_huynh/Guide-to-R-Book/tidyverse.html)
 - [R Tidyverse practice course](https://campus.datacamp.com/courses/introduction-to-the-tidyverse/data-wrangling-1?ex=1)
+
 #### Statistics and R
 - [Harvard Statistics and R course](https://pll.harvard.edu/course/statistics-and-r)
+
 #### Syndromic surveillance code
 - [Isabel Fulcher's github on Syndromic Surveillance](https://github.com/isabelfulcher/global_covid19_response)
+
 #### Extra support
 - [Chatgpt!](https://chatgpt.com/)
